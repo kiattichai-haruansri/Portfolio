@@ -10,7 +10,7 @@ import github from '@/img/contact_icon/github.png'
 import phone from '@/img/contact_icon/phone-call.png'
 import home from '@/img/contact_icon/home.png'
 
-const contact = () => {
+const Contact = () => {
 
     const [email, setEmail] = useState("")
     const [name, setName] = useState("")
@@ -84,4 +84,4 @@ const contact = () => {
     )
 }
 
-export default contact
+export default Contact

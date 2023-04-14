@@ -13,7 +13,7 @@ function Navbar() {
                         ["Certificates", "/cert"],
                         ["Contact", "/contact"],
                     ].map(([title, url]) => (
-                        <Link href={url} className='flex w-1/4 justify-around hover:bg-blue-500 p-2 rounded-xl hover:underline'>
+                        <Link href={url} className='flex w-1/4 justify-around hover:bg-blue-500 p-2 rounded-xl hover:underline' key={title}>
                             <div className='text-lg'>{title}</div>
                         </Link>
                     ))}
